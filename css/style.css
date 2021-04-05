@@ -48,8 +48,15 @@ a, a:hover, a:focus, a:active, a.active {
 	section {
 	    padding: 150px 0;
 	}
+    .section-title p {
+        margin: 25px 50px 30px 50px;
+    }
 }
-
+@media (max-width: 600px) {
+    .section-title p {
+        margin: 25px 50px 30px 50px!important;
+    }
+}
 section {
 	padding: 35px 0 60px;
 }
@@ -279,7 +286,7 @@ font-weight: 700;
     background-color: #B91919;
     float: left;
     height: 4px;
-    margin: 2px 0;
+    margin: 2px 0 2px 3px;
     border-radius: 10px;
     border: 1px solid #B91919;
 }
