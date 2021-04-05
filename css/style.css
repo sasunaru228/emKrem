@@ -87,15 +87,27 @@ section {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #000000;
+	border-color: #000000;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+.navbar-default .navbar-toggle .icon-bar-active {
+    background-color: #000000;
 }
+.navbar .container .navbar-header .navbar-toggle {
+    background: #000000;
+    transition: background .2s;
+}
+.navbar .container .navbar-header .navbar-toggle-active {
+    background: #ffffff;
+}
+/*.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {*/
+/*	background-color: white;*/
+/*    border: 1px solid #000000;*/
+/*    color: #000000;*/
+/*}*/
 .navbar-default .nav li a {
     font-family: "Roboto",sans-serif;
     text-transform: uppercase;

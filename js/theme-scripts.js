@@ -38,3 +38,8 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('.navbar-toggle').click(() => {
+    $('.navbar-toggle').toggleClass('navbar-toggle-active');
+    $('.icon-bar').toggleClass("icon-bar-active");
+})
