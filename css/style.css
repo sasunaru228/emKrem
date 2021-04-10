@@ -691,3 +691,6 @@ and (max-width : 480px) {
 .darkmode--activated .team-item .team-position {
     color: white;
 }
+.darkmode-toggle {
+    z-index: 100;
+}
