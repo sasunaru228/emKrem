@@ -671,3 +671,23 @@ and (max-width : 480px) {
     font-size: 20px;
 }
 }
+.darkmode--activated p, h4 {
+    color: white;
+}
+.darkmode--activated .section-title h2 {
+    color: white;
+}
+.darkmode--activated .navbar-default .nav li a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.darkmode--activated .team-item {
+    background-color: black;
+    border: 1px solid white;
+}
+.darkmode--activated .team-item h3 {
+    color: white;
+}
+.darkmode--activated .team-item .team-position {
+    color: white;
+}
