@@ -694,3 +694,11 @@ and (max-width : 480px) {
 .darkmode-toggle {
     z-index: 100;
 }
+@media (max-width: 500px) {
+    .darkmode-toggle {
+        width: 4rem!important;
+        height: 4rem!important;
+        left: 32px!important;
+        bottom: 32px!important;
+    }
+}
